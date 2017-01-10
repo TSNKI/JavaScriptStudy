@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyDemo</title>
+
+</head>
+<body>
+
+<h1 id="demo1">My Web Page</h1>
+
+<p id="demo2">
+    <span style="color:red">test1</span> test2
+</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+    function myFunction() {
+        document.getElementById("demo1").innerText = "Surprise motherfucker!"
+        document.getElementById("demo2").innerHTML = "<span style='color:blue'>test1</span> test2";
+    }
+</script>
+
+</body>
+</html>
