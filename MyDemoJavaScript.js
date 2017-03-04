@@ -3,6 +3,6 @@
  */
 
 function myFunction() {
-    document.getElementById("demo1").innerText = "Surprise motherfucker!"
-    document.getElementById("demo2").innerHTML = "<span style='color:blue'>test1</span> test2";
+    document.getElementById("demo1").innerText = "Surprise motherfucker!";
+    document.getElementById("span").style = "color:blue";
 }
